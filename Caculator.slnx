@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Caculator/caculator/caculator.vcxproj" Id="1d80c7e3-3506-43cf-b59b-6702e21fb9e3" />
+  <Project Path="Caculator/little_prince.vcxproj" Id="9f325436-61e6-4f9f-b306-0b5421d819fa" />
+</Solution>
