@@ -1,0 +1,26 @@
+# Build output
+x64/
+Debug/
+Release/
+.vs/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.recipe
+*.dll
+
+# User settings
+*.user
+
+# Runtime data
+calculator/photo/test.png
+calculator/photo/captured.jpg
+calculator/photo/clean_rewrite.png
+calculator/photo/pie.png
+calculator/photo/trend.png
+calculator/photo/in/
+calculator/photo/out/
+calculator/photo/in_capture/
+calculator/photo/out_capture/
+calculator/photo/wrong/

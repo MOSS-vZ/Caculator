@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{693f1d80-4fa7-49d0-afdc-310c3c932bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{d02758f5-3a8a-4882-b4d3-59bb152807e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\widgets">
+      <UniqueIdentifier>{62001ccb-4b92-4bac-a354-a751c96fb92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\screens">
+      <UniqueIdentifier>{c831ee37-2a8e-4128-9edb-6afc304e3200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{528c8a5d-d286-4d4c-8c91-7906c35bb5e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainScreen.cpp">
+      <Filter>gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CaptureScreen.cpp">
+      <Filter>gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HistoryScreen.cpp">
+      <Filter>gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WrongBookScreen.cpp">
+      <Filter>gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SplashScreen.cpp">
+      <Filter>gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResultScreen.cpp">
+      <Filter>gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PracticeScreen.cpp">
+      <Filter>gui\screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\App.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Button.h">
+      <Filter>gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainScreen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CaptureScreen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HistoryScreen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WrongBookScreen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SplashScreen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ResultScreen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ResourceManager.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PracticeScreen.h">
+      <Filter>gui\screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
